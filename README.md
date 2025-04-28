@@ -1,18 +1,9 @@
-# HorseRaceSimulator
 
-## Setup Instructions
-1. Clone the repository.
-2. Open the project in your IDE (e.g., IntelliJ, Eclipse).
-3. To run the Text Version:
-    - Navigate to Part1/ and compile the Java files.
-4. To run the GUI Version:
-    - Navigate to Part2/ and compile and run `HorseRacingGUI.java`.
+## Part 2: Graphical User Interface (GUI) Version
 
-## Dependencies
-- Java 8 or later
-- Swing library (already included in Java SE)
+- **Method used:** `startRace()` (handled inside GUI events)
+- **Location:** Inside the `Race` class (in Part2).
+- **How it is invoked:**  
+  When you click the **"Start Race"** button in the GUI, the `startRace()` method is called automatically behind the scenes.  
+  There is **no separate method called `startRaceGUI()`** — the GUI button internally triggers `startRace()` for you.
 
-## Usage Guidelines
-- Customize horses using the GUI in Part 2.
-- Place bets on horses before the race starts.
-- View horse statistics after each race.
